@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import NavBar from "./NavBar";
 
 
 const ViewDonors = () => {
@@ -24,7 +25,7 @@ const ViewDonors = () => {
   return (
     <div>
   
-
+<NavBar/>
       <div className="container mt-4">
 
         <h2 className="text-center mb-4">
